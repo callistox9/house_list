@@ -1,0 +1,40 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    margin: 0;
+    font-family: "Poppins",sans-serif ;
+    
+}
+.logo_image{
+max-width :150px;
+padding-left: 4px;
+padding-top: 4px;
+
+}
+nav{
+    
+    padding-left: 0px;
+     box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);
+
+}
+.photo-grid{
+    
+    display: flex;
+    padding-left: 250px;
+    padding-top: 100px;
+  
+}
+.hero-section{
+    font-size: 30px;
+    
+}
+.hero-title{
+   padding-left: 100px;
+  
+}
+.hero-text-div{
+    padding-left: 350px;
+    
+    
+}
