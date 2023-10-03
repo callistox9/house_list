@@ -20,4 +20,4 @@ export default function Hero()
     )
 
 }
-//I am a Mother Fucking StarBoy
+//I am a Mother Fucking StarBoy.
