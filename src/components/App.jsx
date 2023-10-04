@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from "./NavBar";
 import Hero from "./Hero";
+import Card from "./Card"; 
 export default function App()
 {
     return(
@@ -8,6 +9,7 @@ export default function App()
             <NavBar/>
             
             <Hero/>
+            <Card/>
 
 
 

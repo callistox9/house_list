@@ -38,3 +38,27 @@ nav{
     
     
 }
+.card{
+    width: 600px;
+    padding-inline-start: 350px;
+
+}
+.card-stats{
+    display:flex;
+    align-items: center;
+    font-size: 13px;
+}
+
+.card-image-1{
+    border-radius: 9px;
+    max-width:600px;
+     
+    
+}
+
+.red-star{
+    max-width: 50px;
+    height: 15px;
+    padding-bottom:1px ;
+    padding-inline-start: 4px;
+}
