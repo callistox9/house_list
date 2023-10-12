@@ -1,5 +1,6 @@
 import React from "react";
-export default function ()
+const colors=["hello","world"]
+export default function (props)
 {
     return (
         <div className="card">
@@ -17,7 +18,12 @@ export default function ()
 <div>
     <p>Sureal Mountain Mornings</p>
     <p>From $100/person</p>
+    
+    
 </div>
+
+
+
 </div>
 
     )
