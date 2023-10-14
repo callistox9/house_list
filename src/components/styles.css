@@ -42,6 +42,7 @@ nav{
     width: 600px;
     padding-inline-start: 40px;
     flex : 0 0 auto;
+    position: relative;
 
 }
 .card-stats{
@@ -70,4 +71,13 @@ nav{
     display: flex;
     padding-left: 5px;
     gap: 20px;
+}
+.card-badge{
+    position: absolute;
+    background-color: aqua;
+    top: 30px;
+    left: 60px;
+    padding: 6px 7px;
+    border-radius: 8px;
+    font-weight: bold;
 }

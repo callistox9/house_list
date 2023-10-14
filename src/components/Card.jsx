@@ -8,6 +8,17 @@ export default function (props)
         
         
 <div className="card-stats">
+{
+    //Syntax of immediately invoked function
+  (() => {
+    if (props.openSpots === 0) {
+      return <div className="card-badge">SOLD OUT</div>;
+    }
+    // You can return null or any other fallback UI element if the condition is not met
+    return null;
+  })()
+}
+
     <img src="src/images/red-star.png" className="red-star"></img>
     <span>{props.rating}</span>
     <span>({props.reviewCount  })*</span>
