@@ -16,7 +16,7 @@ export default function (props)
 
     return (
         <div className="card">
-            <img src={`src/images/${props.img}`} className="card-image-1"/>
+            <img src={`src/images/${props.coverImg}`} className="card-image-1"/>
         
         
 <div className="card-stats">
@@ -35,9 +35,9 @@ export default function (props)
 }
 
     <img src="src/images/red-star.png" className="red-star"></img>
-    <span>{props.rating}</span>
-    <span>({props.reviewCount  })*</span>
-    <span>{props.location}</span>
+    <span>{props.stats.rating}</span>
+    <span>({props.stats.reviewCount})*</span>
+    <span>IND</span>
 
 
 </div>
