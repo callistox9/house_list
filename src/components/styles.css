@@ -49,7 +49,9 @@ nav{
     align-items: center;
     font-size: 13px;
 }
-
+.Card-Price{
+    font-weight: bold;
+}
 .card-image-1{
     border-radius: 9px;
     max-width:600px;

@@ -1,23 +1,23 @@
 import React from "react";
-const colors=["hello","world"]
+import data from "./data";
 export default function (props)
 {
     return (
         <div className="card">
-            <img src="src/images/1st-card-image.jpg" className="card-image-1"/>
+            <img src={`src/images/${props.img}`} className="card-image-1"/>
         
         
 <div className="card-stats">
     <img src="src/images/red-star.png" className="red-star"></img>
-    <span>5.0</span>
-    <span>(6)*</span>
-    <span>USA</span>
+    <span>{props.rating}</span>
+    <span>({props.reviewCount  })*</span>
+    <span>{props.location}</span>
 
 
 </div>
 <div>
-    <p>Sureal Mountain Mornings</p>
-    <p>From $100/person</p>
+    <p>{props.title}</p>
+    <p className="Card-Price">From ${props.price}</p>
     
     
 </div>
