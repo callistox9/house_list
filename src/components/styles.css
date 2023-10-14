@@ -15,7 +15,7 @@ padding-top: 4px;
 nav{
     
     padding-left: 0px;
-     box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);
 
 }
 .photo-grid{
@@ -80,4 +80,29 @@ nav{
     padding: 6px 7px;
     border-radius: 8px;
     font-weight: bold;
+}
+
+.first-column-footer{
+    display: flex;
+    border-top: 2px black;
+    flex-direction: column;
+    padding-inline-start: 40px;
+    padding-top: 50px;
+    
+}
+.footer-bold{
+    font-weight: bold;
+    padding-bottom: 4px;
+
+}
+.horizontal-line{
+    border-top: 2px  rgba(39, 37, 37, 0.692);
+}
+
+.padding-below-cards{
+    padding-bottom: 50px;
+
+}
+.footer-span{
+padding-bottom: 4px;
 }

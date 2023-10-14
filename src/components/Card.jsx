@@ -41,7 +41,7 @@ export default function (props)
 
 
 </div>
-<div>
+<div className="padding-below-cards">
     <p>{props.title}</p>
     <p className="Card-Price">From ${props.price}</p>
     
