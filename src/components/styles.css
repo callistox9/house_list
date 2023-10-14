@@ -40,7 +40,8 @@ nav{
 }
 .card{
     width: 600px;
-    padding-inline-start: 350px;
+    padding-inline-start: 40px;
+    flex : 0 0 auto;
 
 }
 .card-stats{
@@ -61,4 +62,10 @@ nav{
     height: 15px;
     padding-bottom:1px ;
     padding-inline-start: 4px;
+}
+.cards-list{
+    
+    display: flex;
+    padding-left: 5px;
+    gap: 20px;
 }
