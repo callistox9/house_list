@@ -2,6 +2,18 @@ import React from "react";
 import data from "./data";
 export default function (props)
 {
+   let badgeText;
+   if(props.openSpots==0)
+{
+    badgeText="SOLD OUT";
+}else if(props.location=="Online")
+{
+    badgeText ="Online";
+}
+
+
+
+
     return (
         <div className="card">
             <img src={`src/images/${props.img}`} className="card-image-1"/>
@@ -11,11 +23,14 @@ export default function (props)
 {
     //Syntax of immediately invoked function
   (() => {
-    if (props.openSpots === 0) {
-      return <div className="card-badge">SOLD OUT</div>;
+    if (badgeText) {
+      return <div className="card-badge">{badgeText}</div>;
     }
     // You can return null or any other fallback UI element if the condition is not met
-    return null;
+   else if(props.location === "Online")
+   {
+    return <div className="card-badge">"Online"</div>;
+   }
   })()
 }
 
