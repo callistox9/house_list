@@ -80,15 +80,17 @@ nav{
     padding: 6px 7px;
     border-radius: 8px;
     font-weight: bold;
+    margin: 0 -5px;
 }
 
 .first-column-footer{
     display: flex;
     border-top: 2px black;
-    flex-direction: column;
+    flex-direction: row;
     padding-inline-start: 40px;
     padding-top: 50px;
-    
+    gap: 10px;
+    margin: 0 -5px;
 }
 .footer-bold{
     font-weight: bold;
@@ -104,5 +106,6 @@ nav{
 
 }
 .footer-span{
+
 padding-bottom: 4px;
 }

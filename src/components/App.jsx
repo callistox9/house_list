@@ -28,15 +28,16 @@ export default function App()
         <div>
             <NavBar/>
             <Hero/>
+            
            <div className="cards-list" >{cards}
-
+           
            </div>
            
             
             
 
 
-
+           <Footer/>
         </div>
     )
 }
